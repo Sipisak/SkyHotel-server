@@ -1,8 +1,5 @@
 package com.sipis.flyfinds.expetion;
 
-/**
- * @author Simpson Alfred
- */
 
 public class UserAlreadyExistsException extends RuntimeException{
     public UserAlreadyExistsException(String message) {
