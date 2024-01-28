@@ -1,9 +1,11 @@
 package com.sipis.flyfinds.repository;
 
+
 import com.sipis.flyfinds.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
+
 
 
 public interface UserRepository extends JpaRepository<User, Long> {
@@ -11,5 +13,5 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     void deleteByEmail(String email);
 
-    Optional<User> findByEmail(String email);
+   Optional<User> findByEmail(String email);
 }
