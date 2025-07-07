@@ -8,7 +8,7 @@
         <version>3.1.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.dailycodework</groupId>
+    <groupId>com</groupId>
     <artifactId>lakeSide-hotel</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>lakeSide-hotel</name>
